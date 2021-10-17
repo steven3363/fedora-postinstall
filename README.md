@@ -1,7 +1,7 @@
-# Fedora Post Install Script
+# Cappy's Fedora Post Install Script
 
-A small shell script for personal use, forked from FHEK789. Thanks mate!
-Now that I mainly use Fedora, this'll setup my daily driver/gaming machine the way that works best.
+A small shell script for personal use, forked from from another fork of a fork (a handful i know)
+Installs my own Fedora COPR repos, rmnscnce's XanMod kernel, My own Wine-TkG build, custom OBS build, and more.
 
 ## Quick Start
 ```bash
