@@ -1,0 +1,9 @@
+[submodule "rpmbuild/discord"]
+	path = rpmbuild/discord
+	url = https://github.com/RPM-Outpost/discord.git
+[submodule "rpmbuild/obs-studio.spec"]
+	path = rpmbuild/obs-studio.spec
+	url = https://github.com/mihawk90/obs-studio.spec.git
+[submodule "dotfiles"]
+	url = https://github.com/korewaChino/dotfiles.git
+	path = dotfiles

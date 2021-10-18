@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Postinstall script
+Comment=A small descriptive blurb about this application.
+Icon=applications-other
+Exec=changeme
+Path=chme
+Terminal=true
+Actions=
