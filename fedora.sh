@@ -215,7 +215,7 @@ elif [ ! -f .stage2 ]; then
 	sudo dnf distro-sync -y && sudo dnf update --refresh -y && flatpak update -y && flatpak remove --unused && sudo fwupdmgr get-updates & spinner Updating system...
 	sudo dnf autoremove -yq & spinner Cleaning up packages...
 	#set default kernel to xanmod
-	#sudo grubby --set-default $(ls /boot | grep vmlinuz | grep xm)
+	sudo grubby --set-default $(ls /boot | grep vmlinuz | grep xm)
 
 	#prepare for stage 2
 	touch .stage2
