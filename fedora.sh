@@ -73,13 +73,6 @@ PACKAGE_LIST=(
 	gnome-boxes
 	v4l2loopback
 	zerotier-one
-	gnome-shell-extension-mediacontrols
-	gnome-shell-extension-dash-to-dock
-	gnome-shell-extension-appindicator
-	gnome-shell-extension-places-menu
-	gnome-shell-extension-emoji-selector
-	gnome-shell-extension-user-theme
-	gnome-shell-extension-workspace-indicator
 )
 
 FLATPAK_LIST=(
