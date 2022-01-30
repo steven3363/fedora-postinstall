@@ -43,15 +43,8 @@ figlet UML-Lite
 echo "Ultramarine Environment deployment script for Fedora"
 
 PACKAGE_LIST=(
-	zsh
-	fish
 	cascadia-code-fonts
 	cascadia-code-pl-fonts
-	lutris
-	steam
-	vlc
-	htop
-	bpytop
 	gnome-boxes
 	handbrake
 	gnome-extensions-app
@@ -64,15 +57,12 @@ PACKAGE_LIST=(
 	yabridge
 	java-latest-openjdk
 	java-11-openjdk
-	heroic-games-launcher-bin
-	linux-util-user
 	python3-pip
 	kernel-xanmod-edge
 	fwupd
 	virt-manager
-	gnome-boxes
 	v4l2loopback
-	zerotier-one
+	
 )
 
 FLATPAK_LIST=(
